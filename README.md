@@ -5,6 +5,10 @@
 [![DiffExp](https://img.shields.io/badge/DiffExp-DESeq2_1.50.2-orange.svg)](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 [![Language](https://img.shields.io/badge/Language-Python_3.9_%7C_R_4.5-yellow.svg)](https://www.python.org/)
 
+<p align="center">
+  <img src="READemption_analysis/output/linkedin_summary_figure.png" alt="RNA-Seq Analysis Summary Overview" width="95%"/>
+</p>
+
 An end-to-end, fully reproducible RNA-seq analysis pipeline for **_Salmonella enterica_ subsp. _enterica_ serovar Typhimurium str. SL1344** comparing bacterial transcriptomes under SPI-2 virulence-inducing conditions (**InSPI2**) versus control/neutral conditions (**LSP**) using the **READemption** computational framework.
 
 ---
