@@ -1,0 +1,16 @@
+# Large binary and intermediate mapping tracks
+*.bam
+*.bam.bai
+*.idx
+*.wig
+*.wig.gz
+READemption_analysis/output/align/unaligned_reads/
+READemption_analysis/output/align/processed_reads/
+
+# Temporary and editor files
+.DS_Store
+*.swp
+*.tmp
+__pycache__/
+.Rhistory
+.RData

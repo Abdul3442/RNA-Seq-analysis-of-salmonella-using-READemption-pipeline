@@ -1,0 +1,58 @@
+{
+    "InSPI2_R1": {
+        "total_no_of_reads": 1000000,
+        "polya_removed": 0,
+        "single_a_removed": 0,
+        "unmodified": 1000000,
+        "too_short": 0,
+        "long_enough": 1000000,
+        "read_length_before_processing_and_freq": {
+            "50": 1000000
+        },
+        "read_length_after_processing_and_freq": {
+            "50": 1000000
+        }
+    },
+    "InSPI2_R2": {
+        "total_no_of_reads": 1000000,
+        "polya_removed": 0,
+        "single_a_removed": 0,
+        "unmodified": 1000000,
+        "too_short": 0,
+        "long_enough": 1000000,
+        "read_length_before_processing_and_freq": {
+            "100": 1000000
+        },
+        "read_length_after_processing_and_freq": {
+            "100": 1000000
+        }
+    },
+    "LSP_R1": {
+        "total_no_of_reads": 1000000,
+        "polya_removed": 0,
+        "single_a_removed": 0,
+        "unmodified": 1000000,
+        "too_short": 0,
+        "long_enough": 1000000,
+        "read_length_before_processing_and_freq": {
+            "50": 1000000
+        },
+        "read_length_after_processing_and_freq": {
+            "50": 1000000
+        }
+    },
+    "LSP_R2": {
+        "total_no_of_reads": 1000000,
+        "polya_removed": 0,
+        "single_a_removed": 0,
+        "unmodified": 1000000,
+        "too_short": 0,
+        "long_enough": 1000000,
+        "read_length_before_processing_and_freq": {
+            "100": 1000000
+        },
+        "read_length_after_processing_and_freq": {
+            "100": 1000000
+        }
+    }
+}

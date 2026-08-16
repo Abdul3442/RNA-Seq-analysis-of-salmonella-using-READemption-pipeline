@@ -1,0 +1,52 @@
+Species	Statistic	InSPI2_R1	InSPI2_R2	LSP_R1	LSP_R2
+all	No. of input reads	1000000	1000000	1000000	1000000
+all	No. of reads - PolyA detected and removed	0	0	0	0
+all	No. of reads - Single 3' A removed	0	0	0	0
+all	No. of reads - Unmodified	1000000	1000000	1000000	1000000
+all	No. of reads - Removed as too short	0	0	0	0
+all	No. of reads - Long enough and used for alignment	1000000	1000000	1000000	1000000
+all	Total no. of aligned reads	3639076	1740469	2862463	969341
+all	Total no. of unaligned reads	263443	649286	351258	812834
+all	Total no. of uniquely aligned reads	212210	86176	199137	27080
+all	Total no. of split aligned reads	0	0	0	0
+all	Total no. of multiple aligned reads	3426866	1654293	2663326	942261
+all	Total no. of cross aligned reads	0	0	0	0
+all	Total no. of alignments	23310394	10854141	17610049	5897411
+all	Percentage of aligned reads (compared to no. of input reads)	363.91	174.05	286.25	96.93
+all	Percentage of aligned reads (compared to no. of long enough reads)	363.91	174.05	286.25	96.93
+all	Percentage of uniquely aligned reads (in relation to all aligned reads)	5.83	4.95	6.96	2.79
+all	Percentage of split aligned reads (in relation to all aligned reads)	0.0	0.0	0.0	0.0
+all	Percentage of multiple aligned reads (in relation to all aligned reads)	94.17	95.05	93.04	97.21
+all	Percentage of cross aligned reads (in relation to all aligned reads)	0.0	0.0	0.0	0.0
+Salmonella Typhimurium	Total no. of aligned reads	3639076	1740469	2862463	969341
+Salmonella Typhimurium	Total no. of uniquely aligned reads	212210	86176	199137	27080
+Salmonella Typhimurium	Total no. of split aligned reads	0	0	0	0
+Salmonella Typhimurium	Total no. of multiple aligned reads	3426866	1654293	2663326	942261
+Salmonella Typhimurium	Total no. of cross aligned reads	0	0	0	0
+Salmonella Typhimurium	Total no. of alignments	23310394	10854141	17610049	5897411
+Salmonella Typhimurium	Percentage of aligned reads (compared to no. of input reads)	363.91	174.05	286.25	96.93
+Salmonella Typhimurium	Percentage of aligned reads (compared to no. of long enough reads)	363.91	174.05	286.25	96.93
+Salmonella Typhimurium	Percentage of uniquely aligned reads (in relation to all aligned reads)	5.83	4.95	6.96	2.79
+Salmonella Typhimurium	Percentage of split aligned reads (in relation to all aligned reads)	0.0	0.0	0.0	0.0
+Salmonella Typhimurium	Percentage of multiple aligned reads (in relation to all aligned reads)	94.17	95.05	93.04	97.21
+Salmonella Typhimurium	Percentage of cross aligned reads (in relation to all aligned reads)	0.0	0.0	0.0	0.0
+Salmonella Typhimurium	NC_016810.1 - No. of aligned reads	3638865	1740394	2862085	969302
+Salmonella Typhimurium	NC_016810.1 - No. of uniquely aligned reads	211999	86101	198759	27041
+Salmonella Typhimurium	NC_016810.1 - No. of split aligned reads	0	0	0	0
+Salmonella Typhimurium	NC_016810.1 - No. of multiple aligned reads	3426866	1654293	2663326	942261
+Salmonella Typhimurium	NC_016810.1 - No. of alignments	23310183	10854066	17609671	5897372
+Salmonella Typhimurium	NC_017718.1 - No. of aligned reads	123	46	192	15
+Salmonella Typhimurium	NC_017718.1 - No. of uniquely aligned reads	123	46	192	15
+Salmonella Typhimurium	NC_017718.1 - No. of split aligned reads	0	0	0	0
+Salmonella Typhimurium	NC_017718.1 - No. of multiple aligned reads	0	0	0	0
+Salmonella Typhimurium	NC_017718.1 - No. of alignments	123	46	192	15
+Salmonella Typhimurium	NC_017719.1 - No. of aligned reads	11	6	62	15
+Salmonella Typhimurium	NC_017719.1 - No. of uniquely aligned reads	11	6	62	15
+Salmonella Typhimurium	NC_017719.1 - No. of split aligned reads	0	0	0	0
+Salmonella Typhimurium	NC_017719.1 - No. of multiple aligned reads	0	0	0	0
+Salmonella Typhimurium	NC_017719.1 - No. of alignments	11	6	62	15
+Salmonella Typhimurium	NC_017720.1 - No. of aligned reads	77	23	124	9
+Salmonella Typhimurium	NC_017720.1 - No. of uniquely aligned reads	77	23	124	9
+Salmonella Typhimurium	NC_017720.1 - No. of split aligned reads	0	0	0	0
+Salmonella Typhimurium	NC_017720.1 - No. of multiple aligned reads	0	0	0	0
+Salmonella Typhimurium	NC_017720.1 - No. of alignments	77	23	124	9

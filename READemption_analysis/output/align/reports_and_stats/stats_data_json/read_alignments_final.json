@@ -1,0 +1,510 @@
+{
+    "InSPI2_R1": {
+        "stats_total": {
+            "no_of_alignments": 23310394.0,
+            "no_of_aligned_reads": 3639076.0,
+            "no_of_split_alignments": 0.0,
+            "no_of_split_aligned_reads": 0.0,
+            "no_of_uniquely_aligned_reads": 212210.0,
+            "no_of_multiple_aligned_reads": 3426866.0,
+            "alignment_length_and_freqs": {},
+            "no_of_hits_per_read_and_freqs": {
+                "1": 212210,
+                "2": 19318,
+                "3": 50703,
+                "4": 75320,
+                "7": 2572626,
+                "5": 37105,
+                "6": 481050,
+                "8": 190744
+            },
+            "no_of_cross_aligned_reads": 0.0,
+            "no_of_unaligned_reads": 263443
+        },
+        "species_stats": {
+            "salmonella": {
+                "no_of_alignments": 23310394.0,
+                "no_of_aligned_reads": 3639076.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 212210.0,
+                "no_of_multiple_aligned_reads": 3426866.0,
+                "alignment_length_and_freqs": {},
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 212210,
+                    "2": 19318,
+                    "3": 50703,
+                    "4": 75320,
+                    "7": 2572626,
+                    "5": 37105,
+                    "6": 481050,
+                    "8": 190744
+                },
+                "no_of_cross_aligned_reads": 0.0
+            }
+        },
+        "stats_per_reference": {
+            "NC_016810.1": {
+                "no_of_alignments": 23310183.0,
+                "no_of_aligned_reads": 3638865.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 211999.0,
+                "no_of_multiple_aligned_reads": 3426866.0,
+                "alignment_length_and_freqs": {
+                    "50": 3589539,
+                    "49": 14411,
+                    "52": 4111,
+                    "51": 23825,
+                    "48": 4882,
+                    "47": 1487,
+                    "53": 610
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 211999,
+                    "2": 19318,
+                    "3": 50703,
+                    "4": 75320,
+                    "7": 2572626,
+                    "5": 37105,
+                    "6": 481050,
+                    "8": 190744
+                }
+            },
+            "NC_017718.1": {
+                "no_of_alignments": 123.0,
+                "no_of_aligned_reads": 123.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 123.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "51": 4,
+                    "49": 22,
+                    "50": 86,
+                    "48": 8,
+                    "52": 1,
+                    "47": 2
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 123
+                }
+            },
+            "NC_017719.1": {
+                "no_of_alignments": 11.0,
+                "no_of_aligned_reads": 11.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 11.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "50": 6,
+                    "49": 2,
+                    "48": 2,
+                    "51": 1
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 11
+                }
+            },
+            "NC_017720.1": {
+                "no_of_alignments": 77.0,
+                "no_of_aligned_reads": 77.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 77.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "49": 19,
+                    "50": 42,
+                    "51": 11,
+                    "48": 5
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 77
+                }
+            }
+        }
+    },
+    "InSPI2_R2": {
+        "stats_total": {
+            "no_of_alignments": 10854141.0,
+            "no_of_aligned_reads": 1740469.0,
+            "no_of_split_alignments": 0.0,
+            "no_of_split_aligned_reads": 0.0,
+            "no_of_uniquely_aligned_reads": 86176.0,
+            "no_of_multiple_aligned_reads": 1654293.0,
+            "alignment_length_and_freqs": {},
+            "no_of_hits_per_read_and_freqs": {
+                "1": 86176,
+                "3": 40605,
+                "6": 346392,
+                "7": 1126790,
+                "5": 57520,
+                "2": 10390,
+                "4": 52220,
+                "8": 20376
+            },
+            "no_of_cross_aligned_reads": 0.0,
+            "no_of_unaligned_reads": 649286
+        },
+        "species_stats": {
+            "salmonella": {
+                "no_of_alignments": 10854141.0,
+                "no_of_aligned_reads": 1740469.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 86176.0,
+                "no_of_multiple_aligned_reads": 1654293.0,
+                "alignment_length_and_freqs": {},
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 86176,
+                    "3": 40605,
+                    "6": 346392,
+                    "7": 1126790,
+                    "5": 57520,
+                    "2": 10390,
+                    "4": 52220,
+                    "8": 20376
+                },
+                "no_of_cross_aligned_reads": 0.0
+            }
+        },
+        "stats_per_reference": {
+            "NC_016810.1": {
+                "no_of_alignments": 10854066.0,
+                "no_of_aligned_reads": 1740394.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 86101.0,
+                "no_of_multiple_aligned_reads": 1654293.0,
+                "alignment_length_and_freqs": {
+                    "97": 2586,
+                    "100": 1406174,
+                    "101": 179754,
+                    "99": 43657,
+                    "105": 17,
+                    "102": 98175,
+                    "96": 1598,
+                    "98": 5439,
+                    "103": 2391,
+                    "95": 417,
+                    "104": 186
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 86101,
+                    "3": 40605,
+                    "6": 346392,
+                    "7": 1126790,
+                    "5": 57520,
+                    "2": 10390,
+                    "4": 52220,
+                    "8": 20376
+                }
+            },
+            "NC_017718.1": {
+                "no_of_alignments": 46.0,
+                "no_of_aligned_reads": 46.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 46.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "100": 36,
+                    "99": 9,
+                    "101": 1
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 46
+                }
+            },
+            "NC_017719.1": {
+                "no_of_alignments": 6.0,
+                "no_of_aligned_reads": 6.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 6.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "100": 4,
+                    "99": 1,
+                    "95": 1
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 6
+                }
+            },
+            "NC_017720.1": {
+                "no_of_alignments": 23.0,
+                "no_of_aligned_reads": 23.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 23.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "100": 11,
+                    "101": 10,
+                    "99": 1,
+                    "97": 1
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 23
+                }
+            }
+        }
+    },
+    "LSP_R1": {
+        "stats_total": {
+            "no_of_alignments": 17610049.0,
+            "no_of_aligned_reads": 2862463.0,
+            "no_of_split_alignments": 0.0,
+            "no_of_split_aligned_reads": 0.0,
+            "no_of_uniquely_aligned_reads": 199137.0,
+            "no_of_multiple_aligned_reads": 2663326.0,
+            "alignment_length_and_freqs": {},
+            "no_of_hits_per_read_and_freqs": {
+                "1": 199137,
+                "3": 103551,
+                "2": 81472,
+                "4": 171428,
+                "6": 320082,
+                "7": 1299473,
+                "5": 87920,
+                "8": 599400
+            },
+            "no_of_cross_aligned_reads": 0.0,
+            "no_of_unaligned_reads": 351258
+        },
+        "species_stats": {
+            "salmonella": {
+                "no_of_alignments": 17610049.0,
+                "no_of_aligned_reads": 2862463.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 199137.0,
+                "no_of_multiple_aligned_reads": 2663326.0,
+                "alignment_length_and_freqs": {},
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 199137,
+                    "3": 103551,
+                    "2": 81472,
+                    "4": 171428,
+                    "6": 320082,
+                    "7": 1299473,
+                    "5": 87920,
+                    "8": 599400
+                },
+                "no_of_cross_aligned_reads": 0.0
+            }
+        },
+        "stats_per_reference": {
+            "NC_016810.1": {
+                "no_of_alignments": 17609671.0,
+                "no_of_aligned_reads": 2862085.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 198759.0,
+                "no_of_multiple_aligned_reads": 2663326.0,
+                "alignment_length_and_freqs": {
+                    "50": 2740235,
+                    "49": 30685,
+                    "52": 11564,
+                    "51": 61627,
+                    "48": 10775,
+                    "47": 3478,
+                    "53": 3721
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 198759,
+                    "3": 103551,
+                    "2": 81472,
+                    "4": 171428,
+                    "6": 320082,
+                    "7": 1299473,
+                    "5": 87920,
+                    "8": 599400
+                }
+            },
+            "NC_017718.1": {
+                "no_of_alignments": 192.0,
+                "no_of_aligned_reads": 192.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 192.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "50": 118,
+                    "49": 55,
+                    "51": 13,
+                    "48": 6
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 192
+                }
+            },
+            "NC_017719.1": {
+                "no_of_alignments": 62.0,
+                "no_of_aligned_reads": 62.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 62.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "50": 19,
+                    "49": 9,
+                    "51": 33,
+                    "48": 1
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 62
+                }
+            },
+            "NC_017720.1": {
+                "no_of_alignments": 124.0,
+                "no_of_aligned_reads": 124.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 124.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "50": 90,
+                    "51": 17,
+                    "49": 10,
+                    "48": 5,
+                    "53": 1,
+                    "52": 1
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 124
+                }
+            }
+        }
+    },
+    "LSP_R2": {
+        "stats_total": {
+            "no_of_alignments": 5897411.0,
+            "no_of_aligned_reads": 969341.0,
+            "no_of_split_alignments": 0.0,
+            "no_of_split_aligned_reads": 0.0,
+            "no_of_uniquely_aligned_reads": 27080.0,
+            "no_of_multiple_aligned_reads": 942261.0,
+            "alignment_length_and_freqs": {},
+            "no_of_hits_per_read_and_freqs": {
+                "1": 27080,
+                "6": 242082,
+                "7": 447671,
+                "5": 132940,
+                "3": 40554,
+                "2": 8562,
+                "4": 20740,
+                "8": 49712
+            },
+            "no_of_cross_aligned_reads": 0.0,
+            "no_of_unaligned_reads": 812834
+        },
+        "species_stats": {
+            "salmonella": {
+                "no_of_alignments": 5897411.0,
+                "no_of_aligned_reads": 969341.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 27080.0,
+                "no_of_multiple_aligned_reads": 942261.0,
+                "alignment_length_and_freqs": {},
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 27080,
+                    "6": 242082,
+                    "7": 447671,
+                    "5": 132940,
+                    "3": 40554,
+                    "2": 8562,
+                    "4": 20740,
+                    "8": 49712
+                },
+                "no_of_cross_aligned_reads": 0.0
+            }
+        },
+        "stats_per_reference": {
+            "NC_016810.1": {
+                "no_of_alignments": 5897372.0,
+                "no_of_aligned_reads": 969302.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 27041.0,
+                "no_of_multiple_aligned_reads": 942261.0,
+                "alignment_length_and_freqs": {
+                    "100": 908841,
+                    "99": 13247,
+                    "101": 27267,
+                    "102": 10154,
+                    "98": 3559,
+                    "95": 354,
+                    "97": 1975,
+                    "103": 2531,
+                    "104": 324,
+                    "96": 1045,
+                    "105": 5
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 27041,
+                    "6": 242082,
+                    "7": 447671,
+                    "5": 132940,
+                    "3": 40554,
+                    "2": 8562,
+                    "4": 20740,
+                    "8": 49712
+                }
+            },
+            "NC_017718.1": {
+                "no_of_alignments": 15.0,
+                "no_of_aligned_reads": 15.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 15.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "100": 13,
+                    "98": 1,
+                    "97": 1
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 15
+                }
+            },
+            "NC_017719.1": {
+                "no_of_alignments": 15.0,
+                "no_of_aligned_reads": 15.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 15.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "101": 11,
+                    "100": 2,
+                    "99": 2
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 15
+                }
+            },
+            "NC_017720.1": {
+                "no_of_alignments": 9.0,
+                "no_of_aligned_reads": 9.0,
+                "no_of_split_alignments": 0.0,
+                "no_of_split_aligned_reads": 0.0,
+                "no_of_uniquely_aligned_reads": 9.0,
+                "no_of_multiple_aligned_reads": 0.0,
+                "alignment_length_and_freqs": {
+                    "100": 6,
+                    "99": 1,
+                    "101": 1,
+                    "97": 1
+                },
+                "no_of_hits_per_read_and_freqs": {
+                    "1": 9
+                }
+            }
+        }
+    }
+}
