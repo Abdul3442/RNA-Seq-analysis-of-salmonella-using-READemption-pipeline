@@ -1,15 +1,23 @@
+#!/usr/bin/env python3
+"""
+Figure 1 Generation Script: Transcriptomic Overview
+Project: RNA-Seq Analysis of Salmonella enterica SL1344 (InSPI2 vs LSP)
+Pipeline: READemption v2.0.4 + segemehl v0.3.4 + DESeq2 v1.50.2
+"""
+
 import os
 from PIL import Image, ImageOps
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
-# Paths to extracted high-res panels
-img_pca = Image.open("/tmp/pdf_pngs/pca_heatmap-1.png")
-img_heatmap = Image.open("/tmp/pdf_pngs/pca_heatmap-2.png")
-img_volcano = Image.open("/tmp/pdf_pngs/volcano-1.png")
-img_ma = Image.open("/tmp/pdf_pngs/ma-1.png")
-img_scatter = Image.open("/tmp/pdf_pngs/scatter-02.png")
-img_align = Image.open("/tmp/pdf_pngs/align_reads-1.png")
+# Paths to intermediate PDF-extracted panels
+panel_dir = "/tmp/pdf_pngs"
+img_pca = Image.open(os.path.join(panel_dir, "pca_heatmap-1.png"))
+img_heatmap = Image.open(os.path.join(panel_dir, "pca_heatmap-2.png"))
+img_volcano = Image.open(os.path.join(panel_dir, "volcano-1.png"))
+img_ma = Image.open(os.path.join(panel_dir, "ma-1.png"))
+img_scatter = Image.open(os.path.join(panel_dir, "scatter-02.png"))
+img_align = Image.open(os.path.join(panel_dir, "align_reads-1.png"))
 
 def autocrop_image(img, border=15):
     diff = ImageOps.invert(img.convert('RGB'))
@@ -29,7 +37,7 @@ cropped_ma = autocrop_image(img_ma)
 cropped_scatter = autocrop_image(img_scatter)
 cropped_align = autocrop_image(img_align)
 
-# Setup figure canvas (16:10 aspect ratio, optimal for LinkedIn landscape post)
+# Setup figure canvas (16:10 aspect ratio)
 plt.rcParams['font.family'] = 'DejaVu Sans'
 fig = plt.figure(figsize=(22, 14), dpi=300, facecolor='#ffffff')
 
@@ -39,7 +47,7 @@ fig.text(0.5, 0.965, "RNA-Seq Transcriptomic Analysis of Salmonella enterica (SL
 fig.text(0.5, 0.938, "SPI-2 Virulence Inducing (InSPI2) vs Control (LSP) | READemption & DESeq2 Pipeline",
          ha='center', va='center', fontsize=13.5, fontweight='medium', color='#334155')
 
-# Define grid layout (2 rows x 3 columns) with ample padding
+# Define grid layout (2 rows x 3 columns)
 gs = gridspec.GridSpec(2, 3, figure=fig,
                        left=0.04, right=0.96,
                        top=0.89, bottom=0.06,
@@ -64,18 +72,16 @@ for slot, img, title, subtitle in panels:
 footer_text = "Analysis Pipeline: READemption v2.0.4 • segemehl v0.3.4 • DESeq2 v1.50.2 • Organism: Salmonella enterica serovar Typhimurium SL1344"
 fig.text(0.5, 0.022, footer_text, ha='center', va='center', fontsize=11, color='#64748b', fontweight='semibold')
 
-# Output directories
-out_dirs = [
-    "/home/abdul/rna_seq_analysis/READemption_analysis/output",
-    "/home/abdul/rna_seq_analysis/READemption_analysis/output/align/reports_and_stats/plots"
+# Output destinations
+targets = [
+    ("figures/Figure1_Transcriptomic_Overview.png", "figures/Figure1_Transcriptomic_Overview.pdf"),
+    ("READemption_analysis/output/Figure1_Transcriptomic_Overview.png", "READemption_analysis/output/Figure1_Transcriptomic_Overview.pdf")
 ]
 
-for d in out_dirs:
-    os.makedirs(d, exist_ok=True)
-    png_path = os.path.join(d, "linkedin_summary_figure.png")
-    pdf_path = os.path.join(d, "linkedin_summary_figure.pdf")
-    plt.savefig(png_path, dpi=300, bbox_inches='tight', facecolor=fig.get_facecolor(), edgecolor='none')
-    plt.savefig(pdf_path, dpi=300, bbox_inches='tight', facecolor=fig.get_facecolor(), edgecolor='none')
+for png_p, pdf_p in targets:
+    os.makedirs(os.path.dirname(png_p), exist_ok=True)
+    plt.savefig(png_p, dpi=300, bbox_inches='tight', facecolor=fig.get_facecolor(), edgecolor='none')
+    plt.savefig(pdf_p, dpi=300, bbox_inches='tight', facecolor=fig.get_facecolor(), edgecolor='none')
 
 plt.close()
-print("High-res LinkedIn summary figures successfully created!")
+print("Figure 1 (Transcriptomic Overview) successfully generated.")

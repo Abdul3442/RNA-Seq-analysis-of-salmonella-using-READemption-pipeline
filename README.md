@@ -6,7 +6,10 @@
 [![Language](https://img.shields.io/badge/Language-Python_3.9_%7C_R_4.5-yellow.svg)](https://www.python.org/)
 
 <p align="center">
-  <img src="READemption_analysis/output/linkedin_summary_figure.png" alt="RNA-Seq Analysis Summary Overview" width="95%"/>
+  <img src="figures/Figure1_Transcriptomic_Overview.png" alt="Figure 1: Transcriptomic Profiling & Differential Expression Overview" width="95%"/>
+</p>
+<p align="center">
+  <em><b>Figure 1: Comprehensive RNA-seq transcriptomic profiling and differential gene expression analysis in Salmonella enterica SL1344 (InSPI2 vs. LSP).</b></em>
 </p>
 
 An end-to-end, fully reproducible RNA-seq analysis pipeline for **_Salmonella enterica_ subsp. _enterica_ serovar Typhimurium str. SL1344** comparing bacterial transcriptomes under SPI-2 virulence-inducing conditions (**InSPI2**) versus control/neutral conditions (**LSP**) using the **READemption** computational framework.
@@ -211,12 +214,16 @@ During development and execution, several upstream compatibility issues were dia
 ---
 
 ## 8. Repository Structure
-
+ 
 ```
 ├── .gitignore
 ├── README.md                # Project documentation
 ├── Installation.sh          # Environment & dependency setup
 ├── Analysis.sh              # 7-step automated analysis script
+├── generate_figures.py      # Publication figure composite script
+├── figures/
+│   ├── Figure1_Transcriptomic_Overview.png  # Multi-panel publication figure
+│   └── Figure1_Transcriptomic_Overview.pdf  # Vector PDF format
 └── READemption_analysis/
     ├── config.json          # READemption species config
     ├── input/
